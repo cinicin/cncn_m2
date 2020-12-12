@@ -37,7 +37,7 @@ Currently only Turkish...
 
 Temp client folder:
 
-	[client.7z](https://www.dosyaupload.com/g8iw)
+![client.7z](https://www.dosyaupload.com/g8iw)
 
 
 ## cncn.sh
