@@ -1,0 +1,102 @@
+FolderName "pack"
+
+List ExcludedFolderNameList
+{
+	"CVS"
+}
+List ExcludedFileNameList
+{
+	"vssver.scc"
+	"syserr.txt"
+	"soundscript.txt"
+	"log.txt"
+	"Test.py"
+	"Prototype[OffLine].py"
+	"loginInfo.py"
+	"error_lookup.py"
+	"errorlog.txt"
+	"makepackscript.txt"
+	"makepackscript_onlyroot.txt"
+	"moviemakepackscript.txt"
+	"build_mottable.py"
+	"uitest.py"
+	"packall.txt"
+	"packitem.txt"
+	"packpc.txt"
+	"packroot.txt"
+	"test.txt"
+	"test2.txt"
+	"quest_test.py"
+}
+List SecurityExtNameList
+{
+	"txt"
+	"msk"
+	"msa"
+	"msm"
+	"py"
+}
+List CompressExtNameList
+{
+	"txt"
+	"msk"
+	"mss"
+	"mse"
+	"msf"
+	"msa"
+	"spt"
+	"atr"
+	"dds"
+	"raw"
+	"wtr"
+	"mde"
+	"tga"
+}
+
+Group RootPackItemList
+{
+	Group ItemProto
+	{
+		FileName	"*item_proto"
+		Fixed	True
+	}
+	Group mob_proto
+	{
+		FileName	"*mob_proto"
+		Fixed	True
+	}
+	Group TextureSet
+	{
+		FileName	"TextureSet/*.txt"
+		Fixed	True
+	}
+	Group TextFiles
+	{
+		FileName	"*.txt"
+		Fixed	True
+	}
+	Group TextFiles
+	{
+		FileName	"*.tbl"
+		Fixed	True
+	}
+	Group KoreanFiles
+	{
+		FileName "*.cvt"
+		Fixed	True
+	}
+	Group ModelFiles
+	{
+		FileName "*.msm"
+		Fixed	True
+	}
+}
+
+Group PackList
+{
+	Group UIScript
+	{
+		PathName	"UIScript/*"
+		Fixed		True
+	}
+}

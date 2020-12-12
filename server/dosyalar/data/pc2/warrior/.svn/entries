@@ -1,0 +1,86 @@
+10
+
+dir
+4248
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game/data/pc2/warrior
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game
+
+
+
+2009-08-17T05:35:27.886463Z
+4020
+cronan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c6d01127-af52-da11-b8ce-0003471ad221
+
+horse
+dir
+
+warrior.msm
+file
+
+
+
+
+2010-01-25T07:05:45.000000Z
+1f761261aeb564a893ef9efa66df01df
+2007-07-10T00:19:57.928198Z
+2499
+myevan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2596
+
+horse_twohand_sword
+dir
+
+twohand_sword
+dir
+
+horse_onehand_sword
+dir
+
+onehand_sword
+dir
+
+intro
+dir
+
+general
+dir
+
+skill
+dir
+

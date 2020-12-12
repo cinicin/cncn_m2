@@ -1,0 +1,86 @@
+10
+
+dir
+4248
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game/data/pc2/assassin
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game
+
+
+
+2009-08-20T07:48:13.641911Z
+4036
+cronan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c6d01127-af52-da11-b8ce-0003471ad221
+
+assassin.msm
+file
+
+
+
+
+2010-01-25T07:05:42.000000Z
+8f5f1c6e89b46ef36c59a64150a2b9a8
+2007-07-10T00:19:57.928198Z
+2499
+myevan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2617
+
+horse
+dir
+
+bow
+dir
+
+horse_onehand_sword
+dir
+
+onehand_sword
+dir
+
+general
+dir
+
+dualhand_sword
+dir
+
+horse_dualhand_sword
+dir
+
+skill
+dir
+

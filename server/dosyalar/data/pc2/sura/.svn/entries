@@ -1,0 +1,83 @@
+10
+
+dir
+4248
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game/data/pc2/sura
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game
+
+
+
+2009-12-21T13:35:55.717047Z
+4201
+metin2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c6d01127-af52-da11-b8ce-0003471ad221
+
+horse
+dir
+
+sura.msm
+file
+
+
+
+
+2010-01-25T07:05:50.000000Z
+d2792d9f961f59c2570945a3ba47f882
+2007-07-10T00:19:57.928198Z
+2499
+myevan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2508
+
+horse_onehand_sword
+dir
+
+onehand_sword
+dir
+
+intro
+dir
+
+effect
+dir
+
+general
+dir
+
+skill
+dir
+

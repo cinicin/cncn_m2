@@ -1,0 +1,92 @@
+10
+
+dir
+4248
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game/data/pc/shaman
+svn+ssh://svn.dev.ymirgames.com/home/metin2server/game
+
+
+
+2009-08-21T07:48:07.490107Z
+4039
+cronan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c6d01127-af52-da11-b8ce-0003471ad221
+
+horse
+dir
+
+shaman.msm
+file
+
+
+
+
+2010-01-25T07:05:37.000000Z
+50f3fc4bfc8c8fbfb8c556c8315e13a8
+2005-11-11T12:32:28.417329Z
+1
+myevan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2512
+
+fan
+dir
+
+horse_fan
+dir
+
+fishing
+dir
+
+onehand_sword
+dir
+
+intro
+dir
+
+general
+dir
+
+bell
+dir
+
+horse_bell
+dir
+
+skill
+dir
+
