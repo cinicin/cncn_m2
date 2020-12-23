@@ -1980,7 +1980,7 @@ void CInputDB::VCard(const char * c_pData)
 
 	sys_log(0, "VCARD: %u %s %s %s %s", p->dwID, p->szSellCharacter, p->szSellAccount, p->szBuyCharacter, p->szBuyAccount);
 
-	std::unique_ptr<SQLMsg> pmsg(DBManager::instance().DirectQuery("SELECT `sell_account`, `buy_account`, time FROM `vcard` WHERE `id`=%u", p->dwID));
+	std::unique_ptr<SQLMsg> pmsg(DBManager::instance().DirectQuery("SELECT `sell_account`, `buy_account`, `time` FROM `vcard` WHERE `id`=%u", p->dwID));
 	if (pmsg->Get()->uiNumRows != 1)
 	{
 		sys_log(0, "VCARD_FAIL: no data");

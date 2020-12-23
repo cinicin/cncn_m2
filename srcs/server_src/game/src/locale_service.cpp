@@ -479,7 +479,7 @@ static void __LocaleService_Init_English()
 
 	g_setQuestObjectDir.clear();
 	g_setQuestObjectDir.insert("locale/english/quest/object");
-	g_stLocaleFilename = "locale/english/eng_string.txt";
+	g_stLocaleFilename = "locale/english/locale_string.txt";
 
 	g_iUseLocale = TRUE;
 	check_name = check_name_alphabet;

@@ -1,0 +1,104 @@
+Module Name: C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+Time Stamp: 0x5fe013ad - (null)
+
+Exception Type: 0xc0000005
+
+eax: 0x03ab00c7	ebx: 0x00862530
+ecx: 0xfff010c7	edx: 0xffffffff
+esi: 0x03baf000	edi: 0x102c2f78
+ebp: 0x010fdff8	esp: 0x010fdfdc
+
+0x00644fae	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004f3fc0	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004f429f	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004f4764	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004e5ed1	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004f489f	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0053d8d7	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x00533b65	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x00533ed2	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0048f101	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0048b688	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x1e0a89a7	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb707	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e09c601	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea04c	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0d4c46	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eaffd	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb795	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e09c601	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e086420	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e085c6a	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb2b2	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eda3f	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e09c601	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e086420	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e085c6a	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eaffd	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb795	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e09c601	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e086420	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a7dc	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea04c	C:\Users\cinic\Desktop\client\python27.dll
+0x1e07a782	C:\Users\cinic\Desktop\client\python27.dll
+0x005823e3	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x00581d46	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0051f24f	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0046967e	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x00467e5a	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x0047038f	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x1e0a89a7	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb707	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea211	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb784	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee952	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eeb36	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ecb94	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea273	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb784	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea211	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb784	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ea211	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eb784	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ed98e	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee952	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0eeb36	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ecb94	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee8fa	C:\Users\cinic\Desktop\client\python27.dll
+0x1e0ee952	C:\Users\cinic\Desktop\client\python27.dll
+0x1e1151cb	C:\Users\cinic\Desktop\client\python27.dll
+0x1e11621c	C:\Users\cinic\Desktop\client\python27.dll
+0x00582e28	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x005830af	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x00582ddb	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004a347c	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004a3772	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x004a26f3	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x005a91a3	C:\Users\cinic\Desktop\client\Release_cncn_m2_Client.exe
+0x75cffa29	C:\WINDOWS\System32\KERNEL32.DLL
+0x77e775f4	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x77e775c4	C:\WINDOWS\SYSTEM32\ntdll.dll
+

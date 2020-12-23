@@ -232,7 +232,7 @@ namespace quest
 		qi->bOrder = (int) lua_tonumber(L, 3);
 
 		DBManager::instance().ReturnQuery(QID_HIGHSCORE_REGISTER, qi->dwPID, qi,
-				"SELECT value FROM highscore%s WHERE `board`='%s' AND `pid`=%u", get_table_postfix(), qi->szBoard, qi->dwPID);
+				"SELECT `value` FROM highscore%s WHERE `board`='%s' AND `pid`=%u", get_table_postfix(), qi->szBoard, qi->dwPID);
 		return 1;
 	}
 
@@ -579,7 +579,7 @@ namespace quest
 			}
 			else
 			{
-				snprintf(questLocaleFileName, sizeof(questLocaleFileName), "%s/locale_%s.lua", g_stQuestDir.c_str(), g_stLocale.c_str());
+				snprintf(questLocaleFileName, sizeof(questLocaleFileName), "%s/locale.lua", g_stQuestDir.c_str());
 			}
 
 			int questLocaleLoadingResult = lua_dofile(L, questLocaleFileName);

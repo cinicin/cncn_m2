@@ -4,9 +4,9 @@ extern "C" {
 #include <lua.h>
 #include <lauxlib.h>
 #include <lualib.h>
-#include "../../../liblua/src/lzio.h"
-#include "../../../liblua/src/llex.h"
-#include "../../../liblua/src/lstring.h"
+#include "lzio.h"
+#include "llex.h"
+#include "lstring.h"
 #if !defined(_MSC_VER) && defined(__cplusplus)
 }
 #endif
@@ -24,8 +24,8 @@ extern "C" {
 #ifndef __WIN32__
 #include <unistd.h>
 #else
-#include <boost/typeof/typeof.hpp>
-#define typeof(t) BOOST_TYPEOF(t)
+#include <boost/__typeof/__typeof.hpp>
+#define __typeof(t) BOOST___typeof(t)
 #include <direct.h>
 #define mkdir(path, mode) _mkdir(path)
 #endif
@@ -201,7 +201,7 @@ void CheckUsedFunction()
 	bool hasError = false;
 	set<string> error_func;
 
-	for (typeof(function_calls.begin()) it = function_calls.begin(); it != function_calls.end(); ++it)
+	for (__typeof(function_calls.begin()) it = function_calls.begin(); it != function_calls.end(); ++it)
 	{
 		if (function_defs.find(*it) == function_defs.end())
 		{
@@ -214,7 +214,7 @@ void CheckUsedFunction()
 	if (hasError)
 	{
 		cout << "Calls undeclared function! : " << endl;
-		for (typeof(error_func.begin()) it = error_func.begin(); it != error_func.end(); ++it)
+		for (__typeof(error_func.begin()) it = error_func.begin(); it != error_func.end(); ++it)
 		{
 			cout << *it << endl;
 		}
@@ -580,7 +580,7 @@ void parse(char * filename)
 					// output
 					ostringstream os;
 					int state_check = 0;
-					typeof(lexstate) prev = lexstate;
+					__typeof(lexstate) prev = lexstate;
 					string callname;
 					bool registered = false;
 					if (prev.t.token == '.')
@@ -722,7 +722,7 @@ void parse(char * filename)
 				{
 					assert(nested == 3);
 					ostringstream os;
-					typeof(lexstate) prev = lexstate;
+					__typeof(lexstate) prev = lexstate;
 					bool registered = false;
 					if (prev.t.token == '.')
 						prev.t.token = TK_DO;

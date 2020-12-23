@@ -43,7 +43,7 @@ CFLAGS += -ferror-limit=1
 INC_DIR += -I../../../harici/boost_1_75_0
 INC_DIR += -I../../../harici/devIL_1_80
 INC_DIR += -I../../../harici/mysql_8_22
-INC_DIR += -I../../../harici/cryptopp_8_20
+INC_DIR += -I../../../harici/cryptopp_8_30
 INC_DIR += -I../../liblua/include
 INC_DIR += -I/usr/local/include
 

@@ -3311,7 +3311,7 @@ DWORD CClientManager::GetItemID()
 bool CClientManager::InitializeLocalization()
 {
 	char szQuery[512];
-	snprintf(szQuery, sizeof(szQuery), "SELECT mValue, mKey FROM locale");
+	snprintf(szQuery, sizeof(szQuery), "SELECT `mValue`, `mKey` FROM `locale`");
 	SQLMsg * pMsg = CDBManager::instance().DirectQuery(szQuery, SQL_COMMON);
 
 	if (pMsg->Get()->uiNumRows == 0)
@@ -3375,7 +3375,7 @@ bool CClientManager::InitializeLocalization()
 				if (g_stLocale != locale.szValue)
 					sys_log(0, "Changed g_stLocale %s to %s", g_stLocale.c_str(), "euckr");
 
-				g_stLocale = "";
+				g_stLocale = "latin1";
 				g_stLocaleNameColumn = "locale_name";
 			}
 			else if (strcmp(locale.szValue, "germany") == 0)
@@ -4345,9 +4345,9 @@ void CClientManager::ChargeCash(const TRequestChargeCash* packet)
 	char szQuery[512];
 
 	if (ERequestCharge_Cash == packet->eChargeType)
-		sprintf(szQuery, "UPDATE `account` set `cash` = `cash` + %d WHERE `id` = %d LIMIT 1", packet->dwAmount, packet->dwAID);
+		sprintf(szQuery, "UPDATE `account` SET `cash` = `cash` + %d WHERE `id` = %d LIMIT 1", packet->dwAmount, packet->dwAID);
 	else if(ERequestCharge_Mileage == packet->eChargeType)
-		sprintf(szQuery, "UPDATE `account` set `mileage` = `mileage` + %d WHERE `id` = %d LIMIT 1", packet->dwAmount, packet->dwAID);
+		sprintf(szQuery, "UPDATE `account` SET `mileage` = `mileage` + %d WHERE `id` = %d LIMIT 1", packet->dwAmount, packet->dwAID);
 	else
 	{
 		sys_err ("Invalid request charge type (type : %d, amount : %d, aid : %d)", packet->eChargeType, packet->dwAmount, packet->dwAID);

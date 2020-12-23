@@ -1,0 +1,24 @@
+HOSTNAME: channel2_core1
+CHANNEL: 2
+PORT: 13010
+P2P_PORT: 14010
+DB_PORT: 15000
+DB_ADDR: localhost
+MAP_ALLOW: 1 2 3 4 5 6
+TABLE_POSTFIX:
+PASSES_PER_SEC: 25
+SAVE_EVENT_SECOND_CYCLE: 180
+PING_EVENT_SECOND_CYCLE: 180
+PLAYER_SQL: localhost cncnsf cinicinsf player
+COMMON_SQL: localhost cncnsf cinicinsf common
+LOG_SQL: localhost cncnsf cinicinsf log
+LOCALE_SERVICE: english
+VIEW_RANGE: 20000
+CHECK_MULTIHACK: 1
+MALL_URL: https://forum.turkmmo.com/uye/1108698-cinicin/
+MAX_LEVEL: 99
+adminpage_ip0: 192.168.0.16
+adminpage_ip1: 192.168.0.16
+adminpage_ip2: 192.168.0.16
+adminpage_ip3: 192.168.0.16
+admin_page_password: dPm"21pe6D4GKH*��45lJD
