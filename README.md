@@ -226,7 +226,7 @@ On FreeBSD:
 
 
 
-![version](https://img.shields.io/github/manifest-json/v/cinicin/cncn_m2?style=plastic)
+![version](https://img.shields.io/github/v/release/cinicin/cncn_m2?style=plastic)
 
 History :
 
