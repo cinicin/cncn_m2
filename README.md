@@ -49,7 +49,7 @@ FreeBSD Tarafında :
    <summary>Kurulum</summary>
 
 1. [İndirin](https://github.com/cinicin/cncn_m2.git) ve ya git ile clonlayın tüm projeyi. Hem bsd hem win tarafına.
-2. [Crypto++](https://github.com/weidai11/cryptopp.git) 'u indirin ve ya clonlayın 8.20 versiyonu olmalı.
+2. [Crypto++](https://github.com/weidai11/cryptopp.git) 'u indirin ve ya klonlayın
 3. cryptopp klasörünü `../cncn_m2/srcs/harici/cryptopp_8_30/cryptopp` lokasyonuna atın. **üzerine yazmayın. !!!**
 4. [boost 1.75 indirin.](https://www.boost.org/users/download/)
 5. boost klasörünü `../cncn_m2/srcs/harici/boost_1_75_0/boost` lokasyonuna atın. ( sadece boost klasörünü diğerleri gerekli değil. )

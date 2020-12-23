@@ -29,7 +29,7 @@ LIBTHECORE_SRC_DIR=${SERVER_SRC_DIR}/libthecore/src
 QC_SRC_DIR=${SERVER_SRC_DIR}/quest
 GAME_SRC_DIR=${SERVER_SRC_DIR}/game/src
 DB_SRC_DIR=${SERVER_SRC_DIR}/db/src
-CRYPTOPP_SRC_DIR=${SRCS_DIR}/${EXTERN_FN}/cryptopp_8_20/cryptopp
+CRYPTOPP_SRC_DIR=${SRCS_DIR}/${EXTERN_FN}/cryptopp_8_30/cryptopp
 #################################################################################
 #	FUNCTIONS
 print()#CNCN ECHO FUNCTION v0.1
